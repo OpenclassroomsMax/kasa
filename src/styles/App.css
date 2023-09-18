@@ -2,10 +2,8 @@
   --red: #ff6060;
 }
 
-.App {
-  margin: 0 auto;
-  padding: 0 auto;
-  font-family: 'Montserrat', sans-serif;
-  max-width: 1240px;
-  align-items: center;
+html,
+body {
+    margin: 0;
+    padding: 0;
 }
