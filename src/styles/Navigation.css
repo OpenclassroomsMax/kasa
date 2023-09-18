@@ -1,20 +1,19 @@
 .nav-header{
-    display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 ;
-      gap: 2rem;
-      /* margin: 0 auto; */
-      color: var(--red);
-      font-weight: 400;
-      min-width: 20%;
-      margin-right: 2px;
-      font-style: normal;
-      font-size: 24px;
-      font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  min-width: 20%;
+  margin-right: 2px;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.navbar a{
-    text-decoration: none;
-      color: #ff6060;
+.nav-header_link {
+  text-decoration: none;
+  color: #ff6060;
+}
+
+.nav-header_link:hover{
+  border-bottom: 1px solid #ff6060;
 }
