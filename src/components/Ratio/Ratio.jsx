@@ -1,0 +1,28 @@
+import fullstar from "../../assets/FullStar.svg";
+import emptystar from "../../assets/EmptyStar.svg";
+
+
+export default function Ratio({ score }) {
+	const stars = [1, 2, 3, 4, 5];
+	return (
+		<div className="rate-comp">
+			{stars.map((level) =>
+				score >= level ? (
+					<img
+						key={level.toString()}
+						className="star"
+						src={fullstar}
+						alt="rating star"
+					/>
+				) : ( //affichage conditionnel des étoiles de score, pleine ou vide selon le score passé en props
+					<img
+						key={level.toString()}
+						className="star"
+						src={emptystar}
+						alt="rating star"
+					/>
+				)
+			)}
+		</div>
+	);
+}
