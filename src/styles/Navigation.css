@@ -17,3 +17,13 @@
 .nav-header_link:hover{
   border-bottom: 1px solid #ff6060;
 }
+
+@media screen and (max-width: 1490px) {
+  
+  .nav-header {
+    font-size: 18px;
+  }
+  .nav-header_link {
+    margin-left: 20px;
+  }
+}

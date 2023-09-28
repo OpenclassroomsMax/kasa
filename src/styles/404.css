@@ -23,3 +23,13 @@
     font-weight: 500;
     font-size: 18px;
 }
+
+@media screen and (max-width: 1490px) {
+    .error-number_text {
+      font-size: 96px;
+    }
+    
+    .error-description_text {
+      font-size: 18px;
+    }
+  }

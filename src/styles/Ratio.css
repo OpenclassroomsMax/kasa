@@ -1,0 +1,20 @@
+.rate-comp {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.star {
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1490px) {
+
+    .star {
+        height: 25px;
+        width: 25px;
+    }
+    
+}

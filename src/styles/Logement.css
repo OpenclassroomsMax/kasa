@@ -1,0 +1,116 @@
+
+.logement {
+    display: inline-flex;
+    width: 90%;
+    margin: auto 5%;
+}
+
+.logement > div {
+    flex: 1 0 auto;
+}
+
+.logement-info {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    color: #ff6060;
+    font-weight: 500;
+}
+.logement-title {
+    font-size: 36px;
+
+}
+.logement-location {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 25px;
+    
+    
+}
+
+/*infos prop*/
+.host-logement-info {
+    /* display: inline-flex; */
+    /* justify-content: flex-end; */
+    margin-top: 25px;
+    /* width: 100%; */
+}
+.host-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+    font-family: "Montserrat", sans-serif;
+    color: #ff6060;
+    font-weight: 500;
+}
+.host-name {
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+.host-picture {
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+.description-equipments-wrapper {
+    display: inline-flex;
+    gap: 0 75px;
+    line-height: 22.5px;
+    list-style: none;
+    margin-top: 25px;
+    width: 90%;
+    margin: auto 5%;
+}
+
+@media screen and (max-width: 1490px) {
+    .logement {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .logement-title {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .logement-location {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .host-logement-info {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 25px;
+        width: 100%;
+    }
+    .host-wrapper {
+        margin-bottom: unset;
+        width: 100%;
+    }
+    .host-picture {
+        height: 40px;
+        width: 40px;
+    }
+    
+
+
+    .description-equipments-wrapper {
+        display: block;
+    }
+
+    .description-equipments-wrapper > .dropdown {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .dropdown {
+        margin-bottom: 20px;
+    }
+}

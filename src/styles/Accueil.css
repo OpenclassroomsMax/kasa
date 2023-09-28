@@ -4,5 +4,26 @@
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 50px 60px; 
-    padding: 55px 50px;
+    padding: 50px 55px;
+    width: 87.5%;
+    margin-left: 5%;
+    
+}
+
+@media screen  and (max-width: 1490px) {
+    .Accueil > .banniere {
+        height: 110px;
+        margin-bottom: 20px;
+    }
+
+    .card-container {
+        
+        background-color: unset;
+        gap: 20px 0;
+        grid-template-columns: 1fr;
+        padding: 0;
+        width: 90%;
+        margin-left: 5%;
+        
+    }
 }

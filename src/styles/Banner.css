@@ -5,7 +5,8 @@
     position: relative;
     font-family: "Montserrat", sans-serif;
     margin-top: 50px;
-    width: 100%;
+    width: 90%;
+    margin-left:5%;
 }
 
 .banner-background{
@@ -25,3 +26,23 @@
     transform: translate(-50%, -50%);
     font-weight: 500;
 }
+
+@media screen and (max-width: 1490px) {
+    .banner-title_text {
+        font-size: 20px;
+        left: 10%;
+        transform: translateY(-50%);
+    }
+    .banner-container {
+        border-radius: 15px;
+       
+        height: 150px;
+        width: 100%;
+        
+    }
+    .banner-background{
+        width: 90%;
+        border-radius: 15px;
+    }
+
+  }

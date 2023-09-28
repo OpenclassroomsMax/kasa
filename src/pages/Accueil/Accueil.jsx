@@ -20,6 +20,7 @@ export default function Accueil() {
 
 	return (
 		<section>
+			
 			<Header />
 			<Banner />
 			{logements.fetchedData &&(
