@@ -44,6 +44,9 @@ export default function Carrousel({images}) {
             {
                 length > 1 && <img className="slider-next" src={slider} alt="Suivant" onClick={NextImage}/>
             }
+            <span className='slider_number'>
+                {current + 1}/{length}
+            </span>
         </div>
        
 		

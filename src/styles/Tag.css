@@ -10,7 +10,7 @@
     margin-right: 10px;
 }
 
-@media screen and (max-width: 1490px) {
+@media screen and (max-width: 768px) {
 
     .tag {
         display: inline-flex;

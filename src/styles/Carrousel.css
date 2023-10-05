@@ -34,8 +34,18 @@
 .carrousel-img.actif {
     display: block;
 }
+.slider_number{
+    display: block;
+    position: absolute;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    left: 48%;
+    top: 86%;
+}
 
-@media screen and (max-width: 1490px) {
+@media screen and (max-width: 768px) {
     .carrousel {
         height: 300px;
         margin-top: 20px;

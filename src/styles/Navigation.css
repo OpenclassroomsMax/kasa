@@ -12,13 +12,14 @@
 .nav-header_link {
   text-decoration: none;
   color: #ff6060;
+
 }
 
-.nav-header_link:hover{
+.link_focus.active {
   border-bottom: 1px solid #ff6060;
 }
 
-@media screen and (max-width: 1490px) {
+@media screen and (max-width: 768px) {
   
   .nav-header {
     font-size: 18px;

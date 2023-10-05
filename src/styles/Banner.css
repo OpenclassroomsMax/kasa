@@ -27,7 +27,7 @@
     font-weight: 500;
 }
 
-@media screen and (max-width: 1490px) {
+@media screen and (max-width: 768px) {
     .banner-title_text {
         font-size: 20px;
         left: 10%;

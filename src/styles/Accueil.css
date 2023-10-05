@@ -5,12 +5,12 @@
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 50px 60px; 
     padding: 50px 55px;
-    width: 87.5%;
     margin-left: 5%;
+    margin-right: 5%;
     
 }
 
-@media screen  and (max-width: 1490px) {
+@media screen  and (max-width: 768px) {
     .Accueil > .banniere {
         height: 110px;
         margin-bottom: 20px;
