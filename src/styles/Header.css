@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* max-width: 1500px; */
   width: 90%;
   margin: auto 5%;
   margin-top: 40px;
@@ -10,13 +9,11 @@
 
 @media screen and (max-width: 768px) {
   .header-container {
-    margin-left:  5%;
+    margin-left: 5%;
     width: 90%;
   }
-  
+
   .header-logo {
     height: 47px;
   }
-
-  
 }

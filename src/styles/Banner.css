@@ -1,48 +1,46 @@
 .banner-container {
-    border-radius: 25px;
-    height: 300px;
-    margin-bottom: 35px;
-    position: relative;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 50px;
-    width: 90%;
-    margin-left:5%;
+  border-radius: 25px;
+  height: 300px;
+  margin-bottom: 35px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  width: 90%;
+  margin-left: 5%;
 }
 
-.banner-background{
-    border-radius: 25px;
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-    filter: brightness(70%);
+.banner-background {
+  border-radius: 25px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  filter: brightness(70%);
 }
 
-.banner-title_text{
-    color: #ffffff;
-    font-size: 42px;
-    left: 50%;
-    position: absolute;
-    top: 45%;
-    transform: translate(-50%, -50%);
-    font-weight: 500;
+.banner-title_text {
+  color: #ffffff;
+  font-size: 42px;
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {
-    .banner-title_text {
-        font-size: 20px;
-        left: 10%;
-        transform: translateY(-50%);
-    }
-    .banner-container {
-        border-radius: 15px;
-       
-        height: 150px;
-        width: 100%;
-        
-    }
-    .banner-background{
-        width: 90%;
-        border-radius: 15px;
-    }
-
+  .banner-title_text {
+    font-size: 20px;
+    left: 10%;
+    transform: translateY(-50%);
   }
+  .banner-container {
+    border-radius: 15px;
+
+    height: 150px;
+    width: 100%;
+  }
+  .banner-background {
+    width: 90%;
+    border-radius: 15px;
+  }
+}

@@ -1,4 +1,4 @@
-.nav-header{
+.nav-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,7 +12,6 @@
 .nav-header_link {
   text-decoration: none;
   color: #ff6060;
-
 }
 
 .link_focus.active {
@@ -20,7 +19,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  
   .nav-header {
     font-size: 18px;
   }

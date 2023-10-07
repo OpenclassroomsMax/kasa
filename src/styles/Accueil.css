@@ -1,29 +1,26 @@
-.card-container{
-    background-color: #f6f6f6;
-    border-radius: 25px;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    gap: 50px 60px; 
-    padding: 50px 55px;
-    margin-left: 5%;
-    margin-right: 5%;
-    
+.card-container {
+  background-color: #f6f6f6;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px 60px;
+  padding: 50px 55px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-@media screen  and (max-width: 768px) {
-    .Accueil > .banniere {
-        height: 110px;
-        margin-bottom: 20px;
-    }
+@media screen and (max-width: 768px) {
+  .Accueil > .banniere {
+    height: 110px;
+    margin-bottom: 20px;
+  }
 
-    .card-container {
-        
-        background-color: unset;
-        gap: 20px 0;
-        grid-template-columns: 1fr;
-        padding: 0;
-        width: 90%;
-        margin-left: 5%;
-        
-    }
+  .card-container {
+    background-color: unset;
+    gap: 20px 0;
+    grid-template-columns: 1fr;
+    padding: 0;
+    width: 90%;
+    margin-left: 5%;
+  }
 }

@@ -1,58 +1,55 @@
 .dropdown {
-    border-radius: 5px;
-    margin-bottom: 35px;
-    text-align: left;
-    margin-top: 50px;
-    width: 80%;
+  border-radius: 5px;
+  margin-bottom: 35px;
+  text-align: left;
+  margin-top: 50px;
+  width: 80%;
 }
-.dropdown-header{
-    align-items: center;
-    background-color: #ff6060;
-    border-radius: 5px;
-    display: inline-flex;
-    height: 25%;
-    min-height: 50px;
-    width: 100%;
+.dropdown-header {
+  align-items: center;
+  background-color: #ff6060;
+  border-radius: 5px;
+  display: inline-flex;
+  height: 25%;
+  min-height: 50px;
+  width: 100%;
 }
 
 .dropdown-title {
-    color: #ffffff;
-    height: 50px;
-    line-height: 50px;
-    margin: 5px 10px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 24px;
+  color: #ffffff;
+  height: 50px;
+  line-height: 50px;
+  margin: 5px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
 }
 .dropdown-chevron {
-    display: flex;
-    margin-right: 10px;
-    width: 100%;
-    transform: rotate(-180deg);
+  display: flex;
+  margin-right: 10px;
+  width: 100%;
+  transform: rotate(-180deg);
 }
 .dropdown-chevron.true {
-    justify-content: end;
-    transform: rotate(0deg);
-
+  justify-content: end;
+  transform: rotate(0deg);
 }
 .dropdown-description {
-    background-color: #f6f6f6;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    color: #ff6060;
-    height: 75%;
-    margin-top: -10px;
-    min-height: 100px;
-    padding: 25px 10px 10px 10px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
+  background-color: #f6f6f6;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #ff6060;
+  height: 75%;
+  margin-top: -10px;
+  min-height: 100px;
+  padding: 25px 10px 10px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
-    .dropdown {
-        width: 90%;
-    }
-    
+  .dropdown {
+    width: 90%;
+  }
 }
-

@@ -1,35 +1,35 @@
 .error-container {
-    color: #ff6060;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    padding-bottom: 2rem;
+  color: #ff6060;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-bottom: 2rem;
 }
 
 .error-number_text {
-    font-weight: 700;
-    font-size: 288px;
+  font-weight: 700;
+  font-size: 288px;
 }
 
 .error-description_text {
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 52px;
-    padding-bottom: 8rem;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 52px;
+  padding-bottom: 8rem;
 }
 
 .error-linkhome {
-    color: #ff6060;
-    text-decoration: underline;
-    font-weight: 500;
-    font-size: 18px;
+  color: #ff6060;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
-    .error-number_text {
-      font-size: 96px;
-    }
-    
-    .error-description_text {
-      font-size: 18px;
-    }
+  .error-number_text {
+    font-size: 96px;
   }
+
+  .error-description_text {
+    font-size: 18px;
+  }
+}
