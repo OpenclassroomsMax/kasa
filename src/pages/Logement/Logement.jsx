@@ -17,7 +17,6 @@ export default function Logement() {
   const { logementID } = useParams();
 
   let thisLogement;
-  console.log(logements.isLoading);
   if (logements.isLoading) {
     return <p>Loading</p>;
   }
