@@ -34,12 +34,6 @@ export default function Logement() {
     return <Error />;
   }
 
-  const equipementsLogement = thisLogement.equipments.map(
-    (equipment, index) => {
-      return <li key={index}>{equipment}</li>;
-    }
-  );
-
   return (
     /* Element permettant de créer la page du logement sélectionner du site */
     <>
@@ -71,7 +65,7 @@ export default function Logement() {
       </div>
       <div className="description-equipments-wrapper">
         <Callapse title="Description" description={thisLogement.description} />
-        <Callapse title="Équipements" description={equipementsLogement} />
+        <Callapse title="Équipements" description={thisLogement.equipments} />
       </div>
       <Footer />
     </>

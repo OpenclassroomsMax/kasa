@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 768px) {
   .carrousel {
-    height: 300px;
+    height: 255px;
     margin-top: 20px;
     width: 90%;
   }
@@ -62,6 +62,6 @@
   }
 
   .carrousel-img {
-    height: 300px;
+    height: 255px;
   }
 }

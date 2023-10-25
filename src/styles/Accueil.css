@@ -9,6 +9,12 @@
   margin-right: 5%;
 }
 
+@media screen and (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .Accueil > .banniere {
     height: 110px;
